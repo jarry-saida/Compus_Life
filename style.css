@@ -1,0 +1,56 @@
+.btn-Accueil {
+  background: none;     
+  border: none;         
+  padding: 0;           
+  cursor: pointer;      
+  font-size: inherit;    
+  color: #000000; 
+}
+.btn-Campus {
+  background: none;     
+  border: none;         
+  padding: 0;           
+  cursor: pointer;      
+  font-size: inherit;    
+  color: #000000;
+}
+.btn-Clubs&activité {
+  background: none;     
+  border: none;         
+  padding: 0;           
+  cursor: pointer;      
+  font-size: inherit;    
+  color: #000000; 
+}
+.btn-Evénements {
+  background: none;     
+  border: none;         
+  padding: 0;           
+  cursor: pointer;      
+  font-size: inherit;    
+  color: #000000; 
+}
+.btn-Conseilsauxnouveaux {
+  background: none;     
+  border: none;         
+  padding: 0;           
+  cursor: pointer;      
+  font-size: inherit;    
+  color: #000000; 
+}
+.btn-Contact {
+  background: none;     
+  border: none;         
+  padding: 0;           
+  cursor: pointer;      
+  font-size: inherit;    
+  color: #000000; 
+}
+.btn-Rejoindrelaventure {
+  background: none;     
+  border: none;         
+  padding: 0;           
+  cursor: pointer;      
+  font-size: inherit;    
+  color: #000000; 
+}
