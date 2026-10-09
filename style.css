@@ -3,36 +3,79 @@
     padding: 0;
     box-sizing: border-box;
     gap: 0;
+    
 }
-
-
-
 header {
+    display: inline-block;
     white-space: nowrap;
-    /* position: fixed; */
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color:white;
-    padding: 10px 50px 10px 50px; */
+    padding: 10px 50px 10px 50px;
+    /* position: fixed;
+    justify-content: space-between;
+    align-items: center;*/
 }
+header > div > .btn-Recherche{
+    margin-right: 20px;
+    background-color: white;
+    border: white;
+}
+.image{
+    height:  461 px;
+    width: 589px;
+    margin-right: 300px;
+    vertical-align: top;
+}
+.statistiques{
+    background-color: red;
+    width: 1024;
+    height: 92;
+}
+.hero > h1 {
+    font-size: 76px;
+}
+/*
+header > div {
+
+
+}header > nav {
+
+
+} */
+
+
 .hero{
     display: inline-block;
+    white-space: nowrap;
+    background-color: black;
+}
+.hero :first-child{
+    width: 50%;
+}
+
+.hero :last-child{
+    width: 50%;
+}
+.gauche{
+    margin-right: 0px;
+    margin-bottom: 20px;
 
 }
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 30px;
-}
+
+/* nav {
+    /* display: inline; */
+    /* align-items: center;
+    justify-content: space-evenly; */
+    /* gap: 30px; 
+} */
 a {
     text-decoration: none;
-    color: black;
+    /* color: black; */
+    border:white;
+
 }
-a:active{
-    color:#034BFF; 
-}
+/* a:active{
+    color:#034BFF;
+} */
 .Rejoindre{
     background-color: #034BFF;
     width: 200 ;
@@ -41,6 +84,21 @@ a:active{
     border: #034BFF;
     padding: 0px 30px 0px 30px ;
 }
+.Voir{
+    width: 176;
+    height: 42;
+    top: 334px;
+    left: 264px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.Découvrir{
+    width: 184;
+    height: 42;
+    top: 334px;
+    left: 61px;
+    border-radius: 5px;
+}
 .Explorer{
     background-color: #C3F85C;
     width: 260;
@@ -48,6 +106,7 @@ a:active{
     border-radius: 12px;
     border: #C3F85C;
     padding: 20px 60px 20px 20px ;
+    color: black;
 }
 footer{
     white-space: nowrap;
@@ -55,8 +114,10 @@ footer{
     height: 283;
     padding: 64px 56px  32px 56px;
     /* justify-content: space-around; */
+    background-color: black;
+}
+footer :last-child {
 
-    background-color: black; 
 }
 
 /* gap: 48px;
@@ -74,7 +135,7 @@ opacity: 1; */
 }
 div{
     display: inline;
-} 
+}
 #lastparagraphe{
     white-space: nowrap;
 }
@@ -88,23 +149,38 @@ footer a {
     display: inline-block;
     /* width: 30%; */
 }
-footer > div:first-child > section { 
-    display: inline-block; 
-    vertical-align: top; 
-    width: 32%; 
+footer > div:first-child > section {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
 }
+footer > div:first-child :last-child {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+}
+
 #lastparagraphe {
     display: block;
 }
-#lastparagraphe p { 
+#lastparagraphe p {
     display: inline-block;
-    vertical-align: top;
-    margin-right: 20px; }
+    margin-right: 20px;
+}
 
 
 
-
-
+header div{
+    margin-left: 50px;
+}
+nav >a{
+    margin: 20px;
+    color: black;
+}
+nav {
+     margin-left: 50px;
+     
+}
 
 
 
