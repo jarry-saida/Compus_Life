@@ -8,13 +8,18 @@
 
 
 header {
-    display: flex;
+    white-space: nowrap;
+    /* position: fixed; */
+    /* display: flex;
     justify-content: space-between;
     align-items: center;
     background-color:white;
-    padding: 10px 50px 10px 50px;
+    padding: 10px 50px 10px 50px; */
 }
+.hero{
+    display: inline-block;
 
+}
 nav {
     display: flex;
     align-items: center;
@@ -41,19 +46,72 @@ a:active{
     width: 260;
     height: 63;
     border-radius: 12px;
+    border: #C3F85C;
     padding: 20px 60px 20px 20px ;
 }
 footer{
-    display: inline;
-    justify-content: space-around;
-    /* background-color: black; */
+    white-space: nowrap;
+    width: 1024;
+    height: 283;
+    padding: 64px 56px  32px 56px;
+    /* justify-content: space-around; */
+
+    background-color: black; 
 }
+
+/* gap: 48px;
+angle: 0 deg;
+opacity: 1; */
+
+
+
+
 .titre{
     color: #C3F85C;
 }
 .paragraphe{
     color: #B2BDB3;
 }
+div{
+    display: inline;
+} 
+#lastparagraphe{
+    white-space: nowrap;
+}
+.lastlogo{
+    color: #F4F6F0;
+}
+dt{
+    color: #F4F6F0;
+}
+footer a {
+    display: inline-block;
+    /* width: 30%; */
+}
+footer > div:first-child > section { 
+    display: inline-block; 
+    vertical-align: top; 
+    width: 32%; 
+}
+#lastparagraphe {
+    display: block;
+}
+#lastparagraphe p { 
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px; }
+
+
+
+
+
+
+
+
+/* footer > span {
+    display: block;
+} */
+
 
                /* <h1 style="display: inline-block; margin-left: 20px; margin-right: 20px;">[YouCode]</h1>
                 <button style="display: inline-block; margin-right: 20px;" class="btn-Accueil">Accueil</button>
